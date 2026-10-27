@@ -1,0 +1,18 @@
+/* Blue container card matching the TP mockup */
+.todo-container {
+  width: 100%;
+  max-width: 420px;
+  background-color: #2563eb; /* Royal blue matching the mockup */
+  border-radius: 18px;
+  padding: 24px 20px;
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
